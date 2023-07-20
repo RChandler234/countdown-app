@@ -2,7 +2,6 @@
 
 import { Box, Stack, Typography } from "@mui/material";
 import Link from "next/link";
-import { useEffect } from "react";
 
 const Home = () => {
   const diff = new Date("8/13/2023").getTime() - new Date().getTime();
