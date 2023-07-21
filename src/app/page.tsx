@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <>
       <header className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl">Home</h1>
+        <h1 className="text-2xl">{`JB and TBR's Hangout Zone`}</h1>
         <Link
           className="border border-slate-100 text-slate-100 px-2 py-1 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
           href="/movies"
